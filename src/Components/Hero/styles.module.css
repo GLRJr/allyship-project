@@ -1,0 +1,65 @@
+.contentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    padding: 170px 0;
+}
+
+.heroContainer {
+    background: linear-gradient(to right, rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),url(../../assets/white-house.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.logoContainer img {
+    width: 75%;
+    display: flex;
+    flex: 1 1;
+}
+
+.heroDescription h1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    color: #EF6848;
+    text-shadow: rgba(0,0,0,0.75);
+
+    display: flex;
+    align-items: center;
+
+
+}
+
+.heroDescription {
+    max-width: 600px;
+    height: 228px;
+}
+.heroDescription p {
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px
+        rgba(0,0,0,0.75);
+}
+
+.boldDemocracyText p {
+    font-weight: 700;
+    font-size: 24px;
+}

@@ -1,0 +1,61 @@
+.mainContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #151515;
+    height: 4905px;
+    background-position: center;
+    background-size: cover;
+}
+
+.mainContainer h1 {
+    font-family: corben;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 64px;
+    color: #FF6600;
+}
+
+.description {
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+
+    max-width: 898px;
+}
+.inputForm {
+  max-width: 898px;  
+}
+
+.inputForm input {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #f07900;
+    border-radius: 10px;
+    width: 438px;
+}
+
+.inputForm form {
+    display: flex;
+    flex-direction: column;
+    /* max-width: 898px; */
+    justify-content: flex-start;
+
+    font-family: montserrat;
+    color: #fff;
+}
+
+.inputForm form h6 {
+    margin-top: 20px;;
+}
+
+.inputForm form textarea {
+    background: #FFFFFF;
+    border: 1px solid #EF6848;
+    border-radius: 5px;
+    resize: none;
+}
