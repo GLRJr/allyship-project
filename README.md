@@ -1,6 +1,6 @@
 # React Dev Project
 
-I didn't really have enough time to finish everything but I got most of it done. The main thing I was focused on was maintainability and keeping the code dry. Even though this project seems small it can get really difficult to maintain if everything is hard coded. I tried to keep the logic separate from the data, So when a change is made in the future you only have to change the data files and you don't have to dig through the code. I also tried to turn as many things into components as possible to increase readability and for ease of modification. If I had more time I could've finished the CSS but the bulk of the logic is there.
+I didn't really have enough time to finish everything but I got most of it done. The main thing I was focused on was maintainability and keeping the code dry. Even though this project seems small it can get really difficult to maintain if everything is hard coded. I tried to keep the logic separate from the data, So when a change is made in the future you only have to change the data files and you don't have to dig through the code. I also tried to turn as many things into components as possible to increase readability and for ease of modification. If I had more time I could've finished the CSS but the bulk of the logic is there. I can walk you through my process or the file structure over a zoom chat if you'd like.
 
 ## Available Scripts
 
