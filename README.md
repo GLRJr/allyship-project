@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# React Dev Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Instructions for running the project are below.
+
+2. I didn't really have enough time to finish everything but I got most of it done. The main thing I was focused on was maintainability and keeping the code dry. Even though this project seems small it can get really difficult to maintain if everything is hard coded. 
+
+   I tried to keep the logic separate from the data, So when a change is made in the future you only have to change the data files and you don't have to dig          through the code. I also tried to turn as many things into components as possible to increase readability and for ease of modification. If I had more time I        could've finished the CSS but the bulk of the logic is there. I can walk you through my process or the file structure over a zoom chat if you'd like.
+
+3.The project isn't complex in concept however, if you decide to contiue using react, it will take some time to build properly and then optimize for the best user experience especially when it comes to file size.
 
 ## Available Scripts
 
