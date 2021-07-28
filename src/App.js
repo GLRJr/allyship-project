@@ -1,7 +1,7 @@
-import Hero from './Components/Hero';
-import NavBar from './Components/NavBar';
-import RegistrationComponent from './Components/RegistrationComponent';
-import style from './styles.module.css';
+import Hero from "./Components/Hero";
+import NavBar from "./Components/NavBar";
+import RegistrationComponent from "./Components/RegistrationComponent";
+import style from "./styles.module.css";
 
 function App() {
   return (

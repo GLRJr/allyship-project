@@ -1,74 +1,71 @@
 body {
-    padding-top: 75px;
+  padding-top: 75px;
 }
 
 .navBar {
-    /*    display: flex;
+  /*    display: flex;
     align-items: center;*/
-    
-    background-color: #151515;
-    color: white;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
+
+  background-color: #151515;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 .navItems {
-    display: flex;
-    justify-content: space-between;
-    padding: 5px 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
 }
 
 .navItems ul {
-    display: flex;
-    align-items: center;
-    flex-grow: 1;
-    text-align: center;
-   justify-content: space-evenly;
-    
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  text-align: center;
+  justify-content: space-evenly;
 }
 
 .navItems li {
-    text-decoration: none;
-    list-style: none;
-    text-align: center;
-    font-family: montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    width: 100%;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  font-family: montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  width: 100%;
 }
 
 .title {
-    display: flex;
-    align-items: center;
-    margin: 10px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
 
-    font-family: montserrat;
-    font-weight: 700;
-    font-size: 24px
+  font-family: montserrat;
+  font-weight: 700;
+  font-size: 24px;
 }
 
 .logoContainer {
-    margin-right: 40px;
+  margin-right: 40px;
 }
 
 .logo {
-    width: 100%;
+  width: 100%;
 }
 
-button {
-    color: #151515;
-    background-color: #EF6848;
-    border-radius: 31px;
-    padding: 10px 55px;
-    box-shadow: 0px 4px 10px rgba(0,0,0,0.25);
+.navBtn {
+  color: #151515;
+  background-color: #ef6848;
+  border-radius: 31px;
+  padding: 10px 55px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
-
-
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
 }

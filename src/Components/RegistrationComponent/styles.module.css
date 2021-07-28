@@ -1,61 +1,129 @@
 .mainContainer {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background: #151515;
-    height: 4905px;
-    background-position: center;
-    background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #151515;
+  height: 1700px;
+  background-position: center;
+  background-size: cover;
 }
 
 .mainContainer h1 {
-    font-family: corben;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 64px;
-    color: #FF6600;
+  font-family: corben;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 64px;
+  color: #ff6600;
 }
 
 .description {
-    font-family: montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 32px;
-    color: #FFFFFF;
+  font-family: montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
 
-    max-width: 898px;
+  max-width: 898px;
 }
 .inputForm {
-  max-width: 898px;  
+  max-width: 898px;
 }
 
 .inputForm input {
-    background-color: #fff;
-    padding: 15px;
-    border: 1px solid #f07900;
-    border-radius: 10px;
-    width: 438px;
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #f07900;
+  border-radius: 10px;
+  width: 438px;
 }
 
 .inputForm form {
-    display: flex;
-    flex-direction: column;
-    /* max-width: 898px; */
-    justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  width: 680px;
+  max-width: 898px;
+  justify-content: flex-start;
 
-    font-family: montserrat;
-    color: #fff;
+  font-family: montserrat;
+  color: #fff;
 }
 
 .inputForm form h6 {
-    margin-top: 20px;;
+  margin-top: 20px;
 }
 
 .inputForm form textarea {
-    background: #FFFFFF;
-    border: 1px solid #EF6848;
-    border-radius: 5px;
-    resize: none;
+  background: #ffffff;
+  border: 1px solid #ef6848;
+  border-radius: 5px;
+  max-width: 480px;
+  resize: none;
+}
+
+.checkBox {
+  display: flex;
+  justify-content: flex-start;
+  width: 680px;
+  /* background-color: aqua; */
+  margin-top: 30px;
+}
+
+.checkBox p {
+  font-family: montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+
+  width: 680px;
+  height: 24px;
+}
+
+.btnContainer {
+  display: flex;
+  align-items: flex-start;
+}
+
+.submitBtn {
+  color: #fff;
+  background-color: #3c711c;
+  border-radius: 31px;
+  padding: 10px 55px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  margin: 20px 20px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.finishBtn {
+  color: #151515;
+  background-color: #ffffff;
+  border-radius: 31px;
+  padding: 10px 55px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  margin: 20px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+}
+.listBtn {
+  color: #fff;
+  background-color: #ff6600;
+  border-radius: 31px;
+  padding: 10px 55px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  margin: 20px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
 }
